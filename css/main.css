@@ -1,0 +1,247 @@
+body{
+	font-family: "Century Gothic", "Helvetica", Helvetica, Arial, sans-serif;
+	background-color:antiquewhite;
+}
+.bodyWrap{
+	width:960px;
+	margin:0 auto;
+}
+.menu{
+	list-style-type:none;
+}
+.menu li{
+	display:inline;
+	padding:5px;
+	font-style:italic;
+}
+.menu li a{
+	text-decoration:none;
+	color:inherit;
+}
+.menu li a:hover{
+	text-decoration:underline;
+}
+.r4Logo{
+	width:200px;
+	display:inline-block;
+	padding:35px 15px 0px 0px;
+}
+.mainMenu{
+	margin-top:15px;
+	font-size:20px;
+}
+.breadcrumb{
+	font-size:11px;
+	margin:13px 0px;
+}
+.content{
+	background-color:whitesmoke;
+	-moz-box-shadow:3px 3px 30px 1px rgb(90, 90, 90);
+	-webkit-box-shadow:3px 3px 30px 1px rgb(90, 90, 90);
+	box-shadow:3px 3px 30px 1px rgb(90, 90, 90);
+	padding:30px 15px;
+	color:#0256a4;
+	opacity:0.95;
+	min-height:850px;
+}
+.content p, .content li{
+	font-size:12px;
+}
+.header{
+	background-color:whitesmoke;
+	-moz-box-shadow:3px 3px 30px 1px rgb(90, 90, 90);
+	-webkit-box-shadow:3px 3px 30px 1px rgb(90, 90, 90);
+	box-shadow:3px 3px 30px 1px rgb(90, 90, 90);
+	padding:20px 15px;
+	position:relative;
+	z-index:1;
+}
+.col{
+	display:inline-block;
+	width:460px;
+	vertical-align:top;
+}
+.footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-size:12px;
+	padding:5px;
+}
+.footer a{
+	color:inherit;
+}
+.clear{
+	clear:both;
+}
+.socialmedia-logo{
+	width:25px;
+	margin:7px 2px;
+}
+.floatright{
+	float:right;
+}
+.nomargin{
+	margin:0px;
+}
+.topReads{
+	background-color:gray;
+	display:block;
+	color:#0256a4;
+	font-weight:bold;
+	padding:10px;
+	font-size:20px;
+	border-radius:5px;
+}
+.topReadItem{
+	text-align:left;
+	margin-top:15px;
+	background-color:linen;
+	height:130px;
+	width:100%;
+	color:black;
+	border:solid 1px #e2e2e2;
+	border-radius:5px;
+}
+.topReadItem p{
+	vertical-align:top;
+	font-size:12px;
+	margin:0px 10px 10px 200px;
+}
+.topReadItem p:first-of-type{
+	font-weight:bold
+}
+.topReadItem img{
+	float:left;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+	height:131px;
+}
+.topReadItemView{
+	text-align:left;
+	margin-top:15px;
+	background-color:linen;
+	color:black;
+	padding:5px 20px;
+	border:solid 1px #e2e2e2;
+	border-radius:5px;
+}
+.topReadItemView p{
+	text-indent:20px;
+	text-align:justify;
+}
+.topReadItemView span{
+	font-size:12px;
+	font-weight:bold;
+}
+.topReadViewWrap p.heading{
+	font-size:15px;
+	text-align:center;
+	color:#0256a4;
+	font-weight:bold;
+}
+.topReadViewWrap span.topReadClose{
+	text-align:right;
+	display:block;
+	cursor:pointer;
+}
+.topReadViewWrap span.topReadClose:hover{
+	text-decoration:underline;
+}
+#slides{
+	margin:0px auto;
+}
+#slides ol{
+	position:absolute;
+	bottom:15px;
+	height:16px;
+	overflow:hidden;
+}
+#slides ol li a{
+	width:16px;
+}
+#slides ol li{
+	background:url('../images/sprites/bullet.png') 0px 16px;
+	margin:0px 5px;
+}
+#slides ol li:hover, #slides ol li.active-marker{
+	background:url('../images/sprites/bullet.png') 0px 0px;
+}
+.page{
+	height:12px;
+	z-index:1;
+	position:relative;
+	background-color:gray;
+}
+.green{
+	background-color:forestgreen;
+}
+.blue{
+	background-color:steelblue;
+}
+.red{
+	background-color:firebrick;
+}
+.yellow{
+	background-color:gold;
+}
+.linkedin{
+	background:url('../images/sprites/social.png') 0px 20px;
+}
+.youtube{
+	background:url('../images/sprites/social.png') 20px 20px;
+}
+.twitter{
+	background:url('../images/sprites/social.png') 40px 20px;
+}
+.facebook{
+	background:url('../images/sprites/social.png') 60px 20px;
+}
+.linkedin:hover{
+	background:url('../images/sprites/social.png') 0px 0px;
+}
+.youtube:hover{
+	background:url('../images/sprites/social.png') 20px 0px;
+}
+.twitter:hover{
+	background:url('../images/sprites/social.png') 40px 0px;
+}
+.facebook:hover{
+	background:url('../images/sprites/social.png') 60px 0px;
+}
+.social{
+	height:20px;
+	width:20px;
+	margin:10px 3px;
+	border:solid 1px gainsboro;
+}
+.seeMore{
+	cursor:pointer;
+	color:crimson;
+}
+.seeMore:hover{
+	text-decoration:underline;
+}
+.topReadViewWrap ul li span{
+	margin-top:5px;
+}
+.footer ul.menu{
+	padding:0;
+}
+.serviceItem{
+	display:inline-block;
+	margin:15px 20px;
+}
+.serviceItem span{
+	font-size:12px;
+	font-weight:bold;
+}
+.serviceImage{
+	width:230px;
+	height:160px;
+	background:#e2e2e2;
+	border:solid 1px #e2e2e2;
+	display:block;
+	border-radius:5px;
+}
